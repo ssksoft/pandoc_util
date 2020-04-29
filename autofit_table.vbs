@@ -14,4 +14,4 @@ Set objDoc = objWord.Documents.Open(filename)
 Set objSelection = objWord.Selection
  
 'テーブルの初期サイズの指定
-objDoc.Tables(1).Rows.Alignment = 1
+objDoc.Tables(1).Columns.AutoFit
